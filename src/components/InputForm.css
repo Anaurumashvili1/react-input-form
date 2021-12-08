@@ -1,0 +1,46 @@
+.new-person-form {
+  font-size: 12px;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+
+  background-color: rgb(255, 255, 255);
+  border-radius: 12px;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+}
+.form {
+  max-width: 50%;
+  margin: 50px auto;
+}
+.new-person-controls {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1rem;
+  margin: 1rem;
+  text-align: center;
+  max-width: 100%;
+  padding-left: 5%;
+}
+.new-person-controls label {
+  font-weight: bold;
+  margin-bottom: 0.7rem;
+  display: block;
+  max-width: 100%;
+}
+
+.new-person-controls input {
+  font: inherit;
+  padding: 0.5rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  width: 95%;
+  height: 1.5rem;
+  max-width: 100%;
+}
+
+.new-person-action button {
+  margin-left: 45%;
+  background-color: rgb(85, 100, 40);
+  color: white;
+  max-width: 13%;
+}
